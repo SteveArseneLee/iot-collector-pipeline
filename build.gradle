@@ -1,0 +1,117 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.4.3'
+    id 'io.spring.dependency-management' version '1.1.7'
+}
+
+group = 'com.practice'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.apache.kafka:kafka-streams'
+    implementation 'org.springframework.kafka:spring-kafka'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.kafka:spring-kafka-test'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0'
+
+    // Faker Library
+    implementation 'net.datafaker:datafaker:2.4.1'
+
+    // Jackson Library
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.18.2'
+
+    // Kafka Streams
+    implementation 'org.springframework.kafka:spring-kafka:3.3.0'
+    // https://mvnrepository.com/artifact/org.apache.kafka/kafka-streams
+//    implementation 'org.apache.kafka:kafka-streams:3.9.0'
+    // https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients
+    implementation 'org.apache.kafka:kafka-clients:3.9.0'
+
+    // FLINK DEPENDENCIES
+    implementation 'org.apache.flink:flink-streaming-java:1.17.2'
+    // https://mvnrepository.com/artifact/org.apache.flink/flink-core
+    compileOnly 'org.apache.flink:flink-core:1.17.2'
+    // https://mvnrepository.com/artifact/org.apache.flink/flink-connector-kafka
+    implementation 'org.apache.flink:flink-connector-kafka:3.1.0-1.17'
+    // https://mvnrepository.com/artifact/org.apache.flink/flink-clients
+    implementation 'org.apache.flink:flink-clients:1.17.2'
+    // https://mvnrepository.com/artifact/org.apache.flink/flink-connector-base
+    implementation 'org.apache.flink:flink-connector-base:1.17.2'
+
+    // https://mvnrepository.com/artifact/org.apache.flink/flink-connector-files
+    compileOnly 'org.apache.flink:flink-connector-files:1.17.2'
+
+    implementation 'org.apache.flink:flink-connector-elasticsearch7:3.0.1-1.17'
+
+    implementation 'com.google.code.gson:gson:2.12.1'
+
+
+//    // Flink CDC
+//    implementation 'org.apache.flink:flink-connector-mysql-cdc:3.3.0'
+//
+//
+//    // https://mvnrepository.com/artifact/org.apache.kafka/connect-api
+//    implementation 'org.apache.kafka:connect-api:3.9.0'
+//
+//    // https://mvnrepository.com/artifact/io.debezium/debezium-api
+//    implementation 'io.debezium:debezium-api:3.0.7.Final'
+
+}
+
+//
+//dependencies {
+//    // === Spring Boot & Kafka 관련 의존성 (기존 유지) ===
+//    implementation 'org.springframework.boot:spring-boot-starter-web'
+//    implementation 'org.apache.kafka:kafka-streams'
+//    implementation 'org.springframework.kafka:spring-kafka'
+//    compileOnly 'org.projectlombok:lombok'
+//    annotationProcessor 'org.projectlombok:lombok'
+//    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+//    testImplementation 'org.springframework.kafka:spring-kafka-test'
+//    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+//    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0'
+//
+//    // Faker, Jackson, etc.
+//    implementation 'net.datafaker:datafaker:2.4.1'
+//    implementation 'com.fasterxml.jackson.core:jackson-databind:2.18.2'
+//    // ...
+//    // (필요한 의존성은 그대로 유지)
+//
+//    // === Flink 1.17.2 Core & Streaming ===
+//    implementation 'org.apache.flink:flink-streaming-java:1.17.2'
+//    implementation 'org.apache.flink:flink-core:1.17.2'
+//    implementation 'org.apache.flink:flink-clients:1.17.2'
+//    implementation 'org.apache.flink:flink-connector-base:1.17.2'
+//    implementation 'org.apache.flink:flink-connector-files:1.17.2' // 파일 sink/소스 사용시
+//
+//    // === Flink Connectors (Universal Connectors 3.x.x-1.17) ===
+//    implementation 'org.apache.flink:flink-connector-kafka:3.1.0-1.17'
+//    implementation 'org.apache.flink:flink-connector-elasticsearch7:3.0.1-1.17'
+//    // Flink MySQL CDC (3.3.0 for Flink 1.17)
+//    implementation 'org.apache.flink:flink-connector-mysql-cdc:3.3.0'
+//
+//    // === 기타 ===
+//    implementation 'com.google.code.gson:gson:2.12.1'
+//    // Debezium, Kafka Connect
+//    implementation 'org.apache.kafka:connect-api:3.3.0'
+//    implementation 'io.debezium:debezium-api:3.0.7.Final'
+//}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
