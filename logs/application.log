@@ -1,0 +1,1277 @@
+2025-03-19 11:46:47 - Starting TimpaniTest2Application using Java 17.0.11 with PID 13695 (/Users/squidengineer/IdeaProjects/Timpani_test2/build/classes/java/main started by squidengineer in /Users/squidengineer/IdeaProjects/Timpani_test2)
+2025-03-19 11:46:47 - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 11:46:49 - Tomcat initialized with port 8083 (http)
+2025-03-19 11:46:49 - Starting service [Tomcat]
+2025-03-19 11:46:49 - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-19 11:46:49 - Initializing Spring embedded WebApplicationContext
+2025-03-19 11:46:49 - Root WebApplicationContext: initialization completed in 1843 ms
+2025-03-19 11:46:49 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-19 11:46:50 - Tomcat started on port 8083 (http) with context path '/'
+2025-03-19 11:46:50 - Started TimpaniTest2Application in 3.953 seconds (process running for 5.318)
+2025-03-19 11:46:58 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-19 11:46:58 - Initializing Servlet 'dispatcherServlet'
+2025-03-19 11:46:58 - Completed initialization in 1 ms
+2025-03-19 11:46:58 - Init duration for springdoc-openapi is: 148 ms
+2025-03-19 11:51:01 - The configuration option taskmanager.cpu.cores required for local execution is not set, setting it to the maximal possible value.
+2025-03-19 11:51:01 - The configuration option taskmanager.memory.task.heap.size required for local execution is not set, setting it to the maximal possible value.
+2025-03-19 11:51:01 - The configuration option taskmanager.memory.task.off-heap.size required for local execution is not set, setting it to the maximal possible value.
+2025-03-19 11:51:01 - The configuration option taskmanager.memory.network.min required for local execution is not set, setting it to its default value 64 mb.
+2025-03-19 11:51:01 - The configuration option taskmanager.memory.network.max required for local execution is not set, setting it to its default value 64 mb.
+2025-03-19 11:51:01 - The configuration option taskmanager.memory.managed.size required for local execution is not set, setting it to its default value 128 mb.
+2025-03-19 11:51:01 - Starting Flink Mini Cluster
+2025-03-19 11:51:02 - Starting Metrics Registry
+2025-03-19 11:51:02 - No metrics reporter configured, no metrics will be exposed/reported.
+2025-03-19 11:51:02 - Starting RPC Service(s)
+2025-03-19 11:51:02 - Trying to start local actor system
+2025-03-19 11:51:02 - Slf4jLogger started
+2025-03-19 11:51:02 - Actor system started at akka://flink
+2025-03-19 11:51:02 - Trying to start local actor system
+2025-03-19 11:51:02 - Slf4jLogger started
+2025-03-19 11:51:02 - Actor system started at akka://flink-metrics
+2025-03-19 11:51:02 - Starting RPC endpoint for org.apache.flink.runtime.metrics.dump.MetricQueryService at akka://flink-metrics/user/rpc/MetricQueryService .
+2025-03-19 11:51:02 - Loading delegation token providers
+2025-03-19 11:51:02 - Hadoop FS is not available (not packaged with this application): NoClassDefFoundError : "org/apache/hadoop/conf/Configuration".
+2025-03-19 11:51:02 - Delegation token provider hadoopfs loaded and initialized
+2025-03-19 11:51:02 - Delegation token provider hbase loaded and initialized
+2025-03-19 11:51:02 - Delegation token providers loaded successfully
+2025-03-19 11:51:02 - Loading delegation token receivers
+2025-03-19 11:51:02 - Delegation token receiver hadoopfs loaded and initialized
+2025-03-19 11:51:02 - Delegation token receiver hbase loaded and initialized
+2025-03-19 11:51:02 - Delegation token receivers loaded successfully
+2025-03-19 11:51:02 - Checking provider and receiver instances consistency
+2025-03-19 11:51:02 - Provider and receiver instances are consistent
+2025-03-19 11:51:02 - Obtaining delegation tokens
+2025-03-19 11:51:02 - Delegation tokens obtained successfully
+2025-03-19 11:51:02 - No tokens obtained so skipping notifications
+2025-03-19 11:51:02 - Loading delegation token receivers
+2025-03-19 11:51:02 - Delegation token receiver hadoopfs loaded and initialized
+2025-03-19 11:51:02 - Delegation token receiver hbase loaded and initialized
+2025-03-19 11:51:02 - Delegation token receivers loaded successfully
+2025-03-19 11:51:02 - Created BLOB server storage directory /var/folders/bq/lfcj8xns4zv0kmcjn2sdc2jr0000gn/T/minicluster_4142df33ee9e850b438b4a0acccab2d0/blobStorage
+2025-03-19 11:51:02 - Started BLOB server at 0.0.0.0:58291 - max concurrent requests: 50 - max backlog: 1000
+2025-03-19 11:51:02 - Created BLOB cache storage directory /var/folders/bq/lfcj8xns4zv0kmcjn2sdc2jr0000gn/T/minicluster_4142df33ee9e850b438b4a0acccab2d0/blobStorage
+2025-03-19 11:51:02 - Created BLOB cache storage directory /var/folders/bq/lfcj8xns4zv0kmcjn2sdc2jr0000gn/T/minicluster_4142df33ee9e850b438b4a0acccab2d0/blobStorage
+2025-03-19 11:51:02 - Starting 1 TaskManager(s)
+2025-03-19 11:51:02 - Starting TaskManager with ResourceID: 048de180-5cd2-477d-affc-9a8e6afdb2f6
+2025-03-19 11:51:02 - Temporary file directory '/var/folders/bq/lfcj8xns4zv0kmcjn2sdc2jr0000gn/T': total 460 GB, usable 217 GB (47.17% usable)
+2025-03-19 11:51:02 - Created a new FileChannelManager for spilling of task related data to disk (joins, sorting, ...). Used directories:
+	/var/folders/bq/lfcj8xns4zv0kmcjn2sdc2jr0000gn/T/flink-io-889de5cf-3c99-402e-95ae-6ca02f05002d
+2025-03-19 11:51:02 - Created a new FileChannelManager for storing result partitions of BLOCKING shuffles. Used directories:
+	/var/folders/bq/lfcj8xns4zv0kmcjn2sdc2jr0000gn/T/flink-netty-shuffle-3b6133c5-5b82-4f53-ab94-4b2c9d9d2f2e
+2025-03-19 11:51:02 - Allocated 64 MB for network buffer pool (number of memory segments: 2048, bytes per segment: 32768).
+2025-03-19 11:51:02 - Starting the network environment and its components.
+2025-03-19 11:51:02 - Starting the kvState service and its components.
+2025-03-19 11:51:02 - Config uses fallback configuration key 'akka.ask.timeout' instead of key 'taskmanager.slot.timeout'
+2025-03-19 11:51:02 - Starting RPC endpoint for org.apache.flink.runtime.taskexecutor.TaskExecutor at akka://flink/user/rpc/taskmanager_0 .
+2025-03-19 11:51:02 - Start job leader service.
+2025-03-19 11:51:02 - User file cache uses directory /var/folders/bq/lfcj8xns4zv0kmcjn2sdc2jr0000gn/T/flink-dist-cache-a96eb0c4-4142-4213-a518-bda8786ffad7
+2025-03-19 11:51:02 - Starting rest endpoint.
+2025-03-19 11:51:02 - Failed to load web based job submission extension. Probable reason: flink-runtime-web is not in the classpath.
+2025-03-19 11:51:03 - Log file environment variable 'log.file' is not set.
+2025-03-19 11:51:03 - JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
+2025-03-19 11:51:03 - Rest endpoint listening at localhost:58292
+2025-03-19 11:51:03 - Proposing leadership to contender http://localhost:58292
+2025-03-19 11:51:03 - http://localhost:58292 was granted leadership with leaderSessionID=3783a7fa-b5d0-4b46-9bd7-785101e62a1a
+2025-03-19 11:51:03 - Received confirmation of leadership for leader http://localhost:58292 , session=3783a7fa-b5d0-4b46-9bd7-785101e62a1a
+2025-03-19 11:51:03 - Proposing leadership to contender LeaderContender: DefaultDispatcherRunner
+2025-03-19 11:51:03 - Starting resource manager service.
+2025-03-19 11:51:03 - Proposing leadership to contender LeaderContender: ResourceManagerServiceImpl
+2025-03-19 11:51:03 - DefaultDispatcherRunner was granted leadership with leader id 0451bc01-5757-4a20-9d84-cf7914f96ebe. Creating new DispatcherLeaderProcess.
+2025-03-19 11:51:03 - Resource manager service is granted leadership with session id 00a14d52-0bae-4691-a07f-3e00a229c1d8.
+2025-03-19 11:51:03 - Flink Mini Cluster started successfully
+2025-03-19 11:51:03 - Start SessionDispatcherLeaderProcess.
+2025-03-19 11:51:03 - Recover all persisted job graphs that are not finished, yet.
+2025-03-19 11:51:03 - Successfully recovered 0 persisted job graphs.
+2025-03-19 11:51:03 - Starting RPC endpoint for org.apache.flink.runtime.resourcemanager.StandaloneResourceManager at akka://flink/user/rpc/resourcemanager_1 .
+2025-03-19 11:51:03 - Starting RPC endpoint for org.apache.flink.runtime.dispatcher.StandaloneDispatcher at akka://flink/user/rpc/dispatcher_2 .
+2025-03-19 11:51:03 - Starting the resource manager.
+2025-03-19 11:51:03 - Received confirmation of leadership for leader akka://flink/user/rpc/dispatcher_2 , session=0451bc01-5757-4a20-9d84-cf7914f96ebe
+2025-03-19 11:51:03 - Starting tokens update task
+2025-03-19 11:51:03 - No tokens obtained so skipping notifications
+2025-03-19 11:51:03 - Tokens update task not started because either no tokens obtained or none of the tokens specified its renewal date
+2025-03-19 11:51:03 - Received confirmation of leadership for leader akka://flink/user/rpc/resourcemanager_1 , session=00a14d52-0bae-4691-a07f-3e00a229c1d8
+2025-03-19 11:51:03 - Connecting to ResourceManager akka://flink/user/rpc/resourcemanager_1(a07f3e00a229c1d800a14d520bae4691).
+2025-03-19 11:51:03 - Resolved ResourceManager address, beginning registration
+2025-03-19 11:51:03 - Registering TaskManager with ResourceID 048de180-5cd2-477d-affc-9a8e6afdb2f6 (akka://flink/user/rpc/taskmanager_0) at ResourceManager
+2025-03-19 11:51:03 - Successful registration at resource manager akka://flink/user/rpc/resourcemanager_1 under registration id c181a9e339f3b6ac506252012f7bbe82.
+2025-03-19 11:51:03 - Received JobGraph submission 'Flink streaming Job: Kafka to Elasticsearch' (5e861ced8886da9d6814adb94cbb8476).
+2025-03-19 11:51:03 - Submitting job 'Flink streaming Job: Kafka to Elasticsearch' (5e861ced8886da9d6814adb94cbb8476).
+2025-03-19 11:51:03 - Proposing leadership to contender LeaderContender: JobMasterServiceLeadershipRunner
+2025-03-19 11:51:03 - JobMasterServiceLeadershipRunner for job 5e861ced8886da9d6814adb94cbb8476 was granted leadership with leader id 7a5f5c0d-0ec4-4fa7-a068-cbf3f0179fb4. Creating new JobMasterServiceProcess.
+2025-03-19 11:51:03 - Starting RPC endpoint for org.apache.flink.runtime.jobmaster.JobMaster at akka://flink/user/rpc/jobmanager_3 .
+2025-03-19 11:51:03 - Initializing job 'Flink streaming Job: Kafka to Elasticsearch' (5e861ced8886da9d6814adb94cbb8476).
+2025-03-19 11:51:03 - Using restart back off time strategy FixedDelayRestartBackoffTimeStrategy(maxNumberRestartAttempts=2147483647, backoffTimeMS=1000) for Flink streaming Job: Kafka to Elasticsearch (5e861ced8886da9d6814adb94cbb8476).
+2025-03-19 11:51:03 - Created execution graph d3279c5a373f4e8cd6c955ac67a487f4 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:51:03 - Running initialization on master for job Flink streaming Job: Kafka to Elasticsearch (5e861ced8886da9d6814adb94cbb8476).
+2025-03-19 11:51:03 - Successfully ran initialization on master in 0 ms.
+2025-03-19 11:51:03 - Built 8 new pipelined regions in 1 ms, total 8 pipelined regions currently.
+2025-03-19 11:51:03 - No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@5fa9dc31
+2025-03-19 11:51:03 - State backend loader loads the state backend as HashMapStateBackend
+2025-03-19 11:51:03 - Checkpoint storage is set to 'jobmanager'
+2025-03-19 11:51:03 - No checkpoint found during restore.
+2025-03-19 11:51:03 - Using failover strategy org.apache.flink.runtime.executiongraph.failover.flip1.RestartPipelinedRegionFailoverStrategy@76eeb4b5 for Flink streaming Job: Kafka to Elasticsearch (5e861ced8886da9d6814adb94cbb8476).
+2025-03-19 11:51:03 - Received confirmation of leadership for leader akka://flink/user/rpc/jobmanager_3 , session=7a5f5c0d-0ec4-4fa7-a068-cbf3f0179fb4
+2025-03-19 11:51:03 - Starting execution of job 'Flink streaming Job: Kafka to Elasticsearch' (5e861ced8886da9d6814adb94cbb8476) under job master id a068cbf3f0179fb47a5f5c0d0ec44fa7.
+2025-03-19 11:51:03 - Starting split enumerator for source Source: Kafka Source.
+2025-03-19 11:51:03 - Starting scheduling with scheduling strategy [org.apache.flink.runtime.scheduler.strategy.PipelinedRegionSchedulingStrategy]
+2025-03-19 11:51:03 - Job Flink streaming Job: Kafka to Elasticsearch (5e861ced8886da9d6814adb94cbb8476) switched from state CREATED to RUNNING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (1/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_0_0) switched from CREATED to SCHEDULED.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (2/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_1_0) switched from CREATED to SCHEDULED.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (3/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_2_0) switched from CREATED to SCHEDULED.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (4/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_3_0) switched from CREATED to SCHEDULED.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (5/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_4_0) switched from CREATED to SCHEDULED.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (6/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_5_0) switched from CREATED to SCHEDULED.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (7/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_6_0) switched from CREATED to SCHEDULED.
+2025-03-19 11:51:03 - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:10000]
+	client.dns.lookup = use_all_dns_ips
+	client.id = flink-group-enumerator-admin-client
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (8/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_7_0) switched from CREATED to SCHEDULED.
+2025-03-19 11:51:03 - Connecting to ResourceManager akka://flink/user/rpc/resourcemanager_1(a07f3e00a229c1d800a14d520bae4691)
+2025-03-19 11:51:03 - Resolved ResourceManager address, beginning registration
+2025-03-19 11:51:03 - Registering job manager a068cbf3f0179fb47a5f5c0d0ec44fa7@akka://flink/user/rpc/jobmanager_3 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:51:03 - Registered job manager a068cbf3f0179fb47a5f5c0d0ec44fa7@akka://flink/user/rpc/jobmanager_3 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:51:03 - JobManager successfully registered at ResourceManager, leader id: a07f3e00a229c1d800a14d520bae4691.
+2025-03-19 11:51:03 - Received resource requirements from job 5e861ced8886da9d6814adb94cbb8476: [ResourceRequirement{resourceProfile=ResourceProfile{UNKNOWN}, numberOfRequiredSlots=8}]
+2025-03-19 11:51:03 - These configurations '[key.deserializer, value.deserializer, enable.auto.commit, client.id.prefix, group.id, partition.discovery.interval.ms, auto.offset.reset]' were supplied but are not used yet.
+2025-03-19 11:51:03 - Kafka version: 3.9.0
+2025-03-19 11:51:03 - Kafka commitId: 84caaa6e9da06435
+2025-03-19 11:51:03 - Kafka startTimeMs: 1742352663551
+2025-03-19 11:51:03 - Starting the KafkaSourceEnumerator for consumer group flink-group without periodic partition discovery.
+2025-03-19 11:51:03 - Receive slot request cd68f159f1d0246368ab7f3fea9c687d for job 5e861ced8886da9d6814adb94cbb8476 from resource manager with leader id a07f3e00a229c1d800a14d520bae4691.
+2025-03-19 11:51:03 - Allocated slot for cd68f159f1d0246368ab7f3fea9c687d.
+2025-03-19 11:51:03 - Add job 5e861ced8886da9d6814adb94cbb8476 for job leader monitoring.
+2025-03-19 11:51:03 - Try to register at job manager akka://flink/user/rpc/jobmanager_3 with leader id 7a5f5c0d-0ec4-4fa7-a068-cbf3f0179fb4.
+2025-03-19 11:51:03 - Receive slot request f361d81f3aae767a252c57daaccbf80a for job 5e861ced8886da9d6814adb94cbb8476 from resource manager with leader id a07f3e00a229c1d800a14d520bae4691.
+2025-03-19 11:51:03 - Allocated slot for f361d81f3aae767a252c57daaccbf80a.
+2025-03-19 11:51:03 - Receive slot request b7dfb56c53f4ced1430c5cb95ca6e89c for job 5e861ced8886da9d6814adb94cbb8476 from resource manager with leader id a07f3e00a229c1d800a14d520bae4691.
+2025-03-19 11:51:03 - Allocated slot for b7dfb56c53f4ced1430c5cb95ca6e89c.
+2025-03-19 11:51:03 - Receive slot request ebf0c3e4b3764265f2ff759bf760490d for job 5e861ced8886da9d6814adb94cbb8476 from resource manager with leader id a07f3e00a229c1d800a14d520bae4691.
+2025-03-19 11:51:03 - Resolved JobManager address, beginning registration
+2025-03-19 11:51:03 - Allocated slot for ebf0c3e4b3764265f2ff759bf760490d.
+2025-03-19 11:51:03 - Receive slot request aaec39230701e4fcad2e223237d26607 for job 5e861ced8886da9d6814adb94cbb8476 from resource manager with leader id a07f3e00a229c1d800a14d520bae4691.
+2025-03-19 11:51:03 - Allocated slot for aaec39230701e4fcad2e223237d26607.
+2025-03-19 11:51:03 - Receive slot request e562b5eae981474535b58764ae6deec6 for job 5e861ced8886da9d6814adb94cbb8476 from resource manager with leader id a07f3e00a229c1d800a14d520bae4691.
+2025-03-19 11:51:03 - Allocated slot for e562b5eae981474535b58764ae6deec6.
+2025-03-19 11:51:03 - Receive slot request 49a905a1a4fe333ec48a7df084702222 for job 5e861ced8886da9d6814adb94cbb8476 from resource manager with leader id a07f3e00a229c1d800a14d520bae4691.
+2025-03-19 11:51:03 - Allocated slot for 49a905a1a4fe333ec48a7df084702222.
+2025-03-19 11:51:03 - Receive slot request 060ae100131d4ad53b66763625e047cc for job 5e861ced8886da9d6814adb94cbb8476 from resource manager with leader id a07f3e00a229c1d800a14d520bae4691.
+2025-03-19 11:51:03 - Allocated slot for 060ae100131d4ad53b66763625e047cc.
+2025-03-19 11:51:03 - Successful registration at job manager akka://flink/user/rpc/jobmanager_3 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:51:03 - Establish JobManager connection for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:51:03 - Offer reserved slots to the leader of job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (1/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_0_0) switched from SCHEDULED to DEPLOYING.
+2025-03-19 11:51:03 - Deploying Source: Kafka Source -> Process -> Sink: Writer (1/8) (attempt #0) with attempt id d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_0_0 and vertex id cbc357ccb763df2852fee8c4fc7d55f2_0 to 048de180-5cd2-477d-affc-9a8e6afdb2f6 @ localhost (dataPort=-1) with allocation id 49a905a1a4fe333ec48a7df084702222
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (2/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_1_0) switched from SCHEDULED to DEPLOYING.
+2025-03-19 11:51:03 - Activate slot 49a905a1a4fe333ec48a7df084702222.
+2025-03-19 11:51:03 - Deploying Source: Kafka Source -> Process -> Sink: Writer (2/8) (attempt #0) with attempt id d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_1_0 and vertex id cbc357ccb763df2852fee8c4fc7d55f2_1 to 048de180-5cd2-477d-affc-9a8e6afdb2f6 @ localhost (dataPort=-1) with allocation id e562b5eae981474535b58764ae6deec6
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (3/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_2_0) switched from SCHEDULED to DEPLOYING.
+2025-03-19 11:51:03 - Deploying Source: Kafka Source -> Process -> Sink: Writer (3/8) (attempt #0) with attempt id d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_2_0 and vertex id cbc357ccb763df2852fee8c4fc7d55f2_2 to 048de180-5cd2-477d-affc-9a8e6afdb2f6 @ localhost (dataPort=-1) with allocation id cd68f159f1d0246368ab7f3fea9c687d
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (4/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_3_0) switched from SCHEDULED to DEPLOYING.
+2025-03-19 11:51:03 - Deploying Source: Kafka Source -> Process -> Sink: Writer (4/8) (attempt #0) with attempt id d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_3_0 and vertex id cbc357ccb763df2852fee8c4fc7d55f2_3 to 048de180-5cd2-477d-affc-9a8e6afdb2f6 @ localhost (dataPort=-1) with allocation id b7dfb56c53f4ced1430c5cb95ca6e89c
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (5/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_4_0) switched from SCHEDULED to DEPLOYING.
+2025-03-19 11:51:03 - Deploying Source: Kafka Source -> Process -> Sink: Writer (5/8) (attempt #0) with attempt id d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_4_0 and vertex id cbc357ccb763df2852fee8c4fc7d55f2_4 to 048de180-5cd2-477d-affc-9a8e6afdb2f6 @ localhost (dataPort=-1) with allocation id aaec39230701e4fcad2e223237d26607
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (6/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_5_0) switched from SCHEDULED to DEPLOYING.
+2025-03-19 11:51:03 - Deploying Source: Kafka Source -> Process -> Sink: Writer (6/8) (attempt #0) with attempt id d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_5_0 and vertex id cbc357ccb763df2852fee8c4fc7d55f2_5 to 048de180-5cd2-477d-affc-9a8e6afdb2f6 @ localhost (dataPort=-1) with allocation id f361d81f3aae767a252c57daaccbf80a
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (7/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_6_0) switched from SCHEDULED to DEPLOYING.
+2025-03-19 11:51:03 - Deploying Source: Kafka Source -> Process -> Sink: Writer (7/8) (attempt #0) with attempt id d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_6_0 and vertex id cbc357ccb763df2852fee8c4fc7d55f2_6 to 048de180-5cd2-477d-affc-9a8e6afdb2f6 @ localhost (dataPort=-1) with allocation id ebf0c3e4b3764265f2ff759bf760490d
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (8/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_7_0) switched from SCHEDULED to DEPLOYING.
+2025-03-19 11:51:03 - Deploying Source: Kafka Source -> Process -> Sink: Writer (8/8) (attempt #0) with attempt id d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_7_0 and vertex id cbc357ccb763df2852fee8c4fc7d55f2_7 to 048de180-5cd2-477d-affc-9a8e6afdb2f6 @ localhost (dataPort=-1) with allocation id 060ae100131d4ad53b66763625e047cc
+2025-03-19 11:51:03 - StateChangelogStorageLoader initialized with shortcut names {memory}.
+2025-03-19 11:51:03 - Creating a changelog storage with name 'memory'.
+2025-03-19 11:51:03 - Creating the channel state executor factory for job id 5e861ced8886da9d6814adb94cbb8476
+2025-03-19 11:51:03 - Received task Source: Kafka Source -> Process -> Sink: Writer (1/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_0_0), deploy into slot with allocation id 49a905a1a4fe333ec48a7df084702222.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (1/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_0_0) switched from CREATED to DEPLOYING.
+2025-03-19 11:51:03 - Activate slot e562b5eae981474535b58764ae6deec6.
+2025-03-19 11:51:03 - Received task Source: Kafka Source -> Process -> Sink: Writer (2/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_1_0), deploy into slot with allocation id e562b5eae981474535b58764ae6deec6.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (2/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_1_0) switched from CREATED to DEPLOYING.
+2025-03-19 11:51:03 - Activate slot cd68f159f1d0246368ab7f3fea9c687d.
+2025-03-19 11:51:03 - Loading JAR files for task Source: Kafka Source -> Process -> Sink: Writer (1/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_0_0) [DEPLOYING].
+2025-03-19 11:51:03 - Loading JAR files for task Source: Kafka Source -> Process -> Sink: Writer (2/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_1_0) [DEPLOYING].
+2025-03-19 11:51:03 - Received task Source: Kafka Source -> Process -> Sink: Writer (3/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_2_0), deploy into slot with allocation id cd68f159f1d0246368ab7f3fea9c687d.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (3/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_2_0) switched from CREATED to DEPLOYING.
+2025-03-19 11:51:03 - Activate slot b7dfb56c53f4ced1430c5cb95ca6e89c.
+2025-03-19 11:51:03 - Loading JAR files for task Source: Kafka Source -> Process -> Sink: Writer (3/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_2_0) [DEPLOYING].
+2025-03-19 11:51:03 - Received task Source: Kafka Source -> Process -> Sink: Writer (4/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_3_0), deploy into slot with allocation id b7dfb56c53f4ced1430c5cb95ca6e89c.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (4/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_3_0) switched from CREATED to DEPLOYING.
+2025-03-19 11:51:03 - Activate slot aaec39230701e4fcad2e223237d26607.
+2025-03-19 11:51:03 - Loading JAR files for task Source: Kafka Source -> Process -> Sink: Writer (4/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_3_0) [DEPLOYING].
+2025-03-19 11:51:03 - Received task Source: Kafka Source -> Process -> Sink: Writer (5/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_4_0), deploy into slot with allocation id aaec39230701e4fcad2e223237d26607.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (5/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_4_0) switched from CREATED to DEPLOYING.
+2025-03-19 11:51:03 - Loading JAR files for task Source: Kafka Source -> Process -> Sink: Writer (5/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_4_0) [DEPLOYING].
+2025-03-19 11:51:03 - Activate slot f361d81f3aae767a252c57daaccbf80a.
+2025-03-19 11:51:03 - Received task Source: Kafka Source -> Process -> Sink: Writer (6/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_5_0), deploy into slot with allocation id f361d81f3aae767a252c57daaccbf80a.
+2025-03-19 11:51:03 - Activate slot ebf0c3e4b3764265f2ff759bf760490d.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (6/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_5_0) switched from CREATED to DEPLOYING.
+2025-03-19 11:51:03 - Loading JAR files for task Source: Kafka Source -> Process -> Sink: Writer (6/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_5_0) [DEPLOYING].
+2025-03-19 11:51:03 - Received task Source: Kafka Source -> Process -> Sink: Writer (7/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_6_0), deploy into slot with allocation id ebf0c3e4b3764265f2ff759bf760490d.
+2025-03-19 11:51:03 - Activate slot 060ae100131d4ad53b66763625e047cc.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (7/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_6_0) switched from CREATED to DEPLOYING.
+2025-03-19 11:51:03 - Loading JAR files for task Source: Kafka Source -> Process -> Sink: Writer (7/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_6_0) [DEPLOYING].
+2025-03-19 11:51:03 - Received task Source: Kafka Source -> Process -> Sink: Writer (8/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_7_0), deploy into slot with allocation id 060ae100131d4ad53b66763625e047cc.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (8/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_7_0) switched from CREATED to DEPLOYING.
+2025-03-19 11:51:03 - Loading JAR files for task Source: Kafka Source -> Process -> Sink: Writer (8/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_7_0) [DEPLOYING].
+2025-03-19 11:51:03 - Activate slot 49a905a1a4fe333ec48a7df084702222.
+2025-03-19 11:51:03 - Activate slot e562b5eae981474535b58764ae6deec6.
+2025-03-19 11:51:03 - Activate slot cd68f159f1d0246368ab7f3fea9c687d.
+2025-03-19 11:51:03 - Activate slot b7dfb56c53f4ced1430c5cb95ca6e89c.
+2025-03-19 11:51:03 - Activate slot aaec39230701e4fcad2e223237d26607.
+2025-03-19 11:51:03 - Activate slot f361d81f3aae767a252c57daaccbf80a.
+2025-03-19 11:51:03 - Activate slot ebf0c3e4b3764265f2ff759bf760490d.
+2025-03-19 11:51:03 - Activate slot 060ae100131d4ad53b66763625e047cc.
+2025-03-19 11:51:03 - No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@1e32d7a6
+2025-03-19 11:51:03 - No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@679e13fd
+2025-03-19 11:51:03 - No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@5649310c
+2025-03-19 11:51:03 - State backend loader loads the state backend as HashMapStateBackend
+2025-03-19 11:51:03 - State backend loader loads the state backend as HashMapStateBackend
+2025-03-19 11:51:03 - Checkpoint storage is set to 'jobmanager'
+2025-03-19 11:51:03 - Checkpoint storage is set to 'jobmanager'
+2025-03-19 11:51:03 - No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@1e2386f
+2025-03-19 11:51:03 - No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@7bb18155
+2025-03-19 11:51:03 - State backend loader loads the state backend as HashMapStateBackend
+2025-03-19 11:51:03 - Checkpoint storage is set to 'jobmanager'
+2025-03-19 11:51:03 - No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@79fe51ad
+2025-03-19 11:51:03 - State backend loader loads the state backend as HashMapStateBackend
+2025-03-19 11:51:03 - Checkpoint storage is set to 'jobmanager'
+2025-03-19 11:51:03 - No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@5cbc0831
+2025-03-19 11:51:03 - No state backend has been configured, using default (HashMap) org.apache.flink.runtime.state.hashmap.HashMapStateBackend@18f08285
+2025-03-19 11:51:03 - State backend loader loads the state backend as HashMapStateBackend
+2025-03-19 11:51:03 - State backend loader loads the state backend as HashMapStateBackend
+2025-03-19 11:51:03 - Checkpoint storage is set to 'jobmanager'
+2025-03-19 11:51:03 - State backend loader loads the state backend as HashMapStateBackend
+2025-03-19 11:51:03 - Checkpoint storage is set to 'jobmanager'
+2025-03-19 11:51:03 - Checkpoint storage is set to 'jobmanager'
+2025-03-19 11:51:03 - State backend loader loads the state backend as HashMapStateBackend
+2025-03-19 11:51:03 - Checkpoint storage is set to 'jobmanager'
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (8/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_7_0) switched from DEPLOYING to INITIALIZING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (6/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_5_0) switched from DEPLOYING to INITIALIZING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (5/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_4_0) switched from DEPLOYING to INITIALIZING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (2/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_1_0) switched from DEPLOYING to INITIALIZING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (1/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_0_0) switched from DEPLOYING to INITIALIZING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (3/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_2_0) switched from DEPLOYING to INITIALIZING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (7/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_6_0) switched from DEPLOYING to INITIALIZING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (4/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_3_0) switched from DEPLOYING to INITIALIZING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (8/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_7_0) switched from DEPLOYING to INITIALIZING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (5/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_4_0) switched from DEPLOYING to INITIALIZING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (1/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_0_0) switched from DEPLOYING to INITIALIZING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (2/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_1_0) switched from DEPLOYING to INITIALIZING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (3/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_2_0) switched from DEPLOYING to INITIALIZING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (6/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_5_0) switched from DEPLOYING to INITIALIZING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (7/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_6_0) switched from DEPLOYING to INITIALIZING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (4/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_3_0) switched from DEPLOYING to INITIALIZING.
+2025-03-19 11:51:03 - Discovered new partitions: [test5-0]
+2025-03-19 11:51:03 - Source Source: Kafka Source registering reader for parallel task 4 (#0) @ 
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (7/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_6_0) switched from INITIALIZING to RUNNING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (8/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_7_0) switched from INITIALIZING to RUNNING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (6/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_5_0) switched from INITIALIZING to RUNNING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (3/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_2_0) switched from INITIALIZING to RUNNING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (7/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_6_0) switched from INITIALIZING to RUNNING.
+2025-03-19 11:51:03 - Source Source: Kafka Source registering reader for parallel task 7 (#0) @ 
+2025-03-19 11:51:03 - Source Source: Kafka Source registering reader for parallel task 3 (#0) @ 
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (8/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_7_0) switched from INITIALIZING to RUNNING.
+2025-03-19 11:51:03 - Source Source: Kafka Source registering reader for parallel task 0 (#0) @ 
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (2/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_1_0) switched from INITIALIZING to RUNNING.
+2025-03-19 11:51:03 - Source Source: Kafka Source registering reader for parallel task 5 (#0) @ 
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (6/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_5_0) switched from INITIALIZING to RUNNING.
+2025-03-19 11:51:03 - Assigning splits to readers {5=[[Partition: test5-0, StartingOffset: -2, StoppingOffset: -9223372036854775808]]}
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (3/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_2_0) switched from INITIALIZING to RUNNING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (1/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_0_0) switched from INITIALIZING to RUNNING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (2/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_1_0) switched from INITIALIZING to RUNNING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (4/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_3_0) switched from INITIALIZING to RUNNING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (1/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_0_0) switched from INITIALIZING to RUNNING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (5/8)#0 (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_4_0) switched from INITIALIZING to RUNNING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (4/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_3_0) switched from INITIALIZING to RUNNING.
+2025-03-19 11:51:03 - Source: Kafka Source -> Process -> Sink: Writer (5/8) (d3279c5a373f4e8cd6c955ac67a487f4_cbc357ccb763df2852fee8c4fc7d55f2_4_0) switched from INITIALIZING to RUNNING.
+2025-03-19 11:51:03 - Source Source: Kafka Source registering reader for parallel task 6 (#0) @ 
+2025-03-19 11:51:03 - Source Source: Kafka Source registering reader for parallel task 1 (#0) @ 
+2025-03-19 11:51:03 - Source Source: Kafka Source registering reader for parallel task 2 (#0) @ 
+2025-03-19 11:51:03 - Adding split(s) to reader: [[Partition: test5-0, StartingOffset: -2, StoppingOffset: -9223372036854775808]]
+2025-03-19 11:51:03 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:10000]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = flink-group-5
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = flink-group
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2025-03-19 11:51:03 - initializing Kafka metrics collector
+2025-03-19 11:51:03 - These configurations '[client.id.prefix, partition.discovery.interval.ms]' were supplied but are not used yet.
+2025-03-19 11:51:03 - Kafka version: 3.9.0
+2025-03-19 11:51:03 - Kafka commitId: 84caaa6e9da06435
+2025-03-19 11:51:03 - Kafka startTimeMs: 1742352663976
+2025-03-19 11:51:03 - Starting split fetcher 0
+2025-03-19 11:51:03 - [Consumer clientId=flink-group-5, groupId=flink-group] Assigned to partition(s): test5-0
+2025-03-19 11:51:03 - [Consumer clientId=flink-group-5, groupId=flink-group] Seeking to earliest offset of partition test5-0
+2025-03-19 11:51:03 - [Consumer clientId=flink-group-5, groupId=flink-group] Cluster ID: HsDBs9l6UUmQq7Y5E6bNlw
+2025-03-19 11:51:03 - [Consumer clientId=flink-group-5, groupId=flink-group] Resetting offset for partition test5-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[127.0.0.1:10002 (id: 2 rack: null)], epoch=0}}.
+2025-03-19 11:51:05 - Sending bulk of 31 actions to Elasticsearch.
+2025-03-19 11:51:07 - Triggering checkpoint 1 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352667167 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:51:07 - Completed checkpoint 1 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=47 ms, finalizationTime=1 ms).
+2025-03-19 11:51:07 - Marking checkpoint 1 as completed for source Source: Kafka Source.
+2025-03-19 11:51:12 - Triggering checkpoint 2 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352672163 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:51:12 - Completed checkpoint 2 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=11 ms, finalizationTime=3 ms).
+2025-03-19 11:51:12 - Marking checkpoint 2 as completed for source Source: Kafka Source.
+2025-03-19 11:51:14 - [Consumer clientId=flink-group-5, groupId=flink-group] Discovered group coordinator 127.0.0.1:10000 (id: 2147483647 rack: null)
+2025-03-19 11:51:17 - Triggering checkpoint 3 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352677164 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:51:17 - Completed checkpoint 3 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=7 ms, finalizationTime=0 ms).
+2025-03-19 11:51:17 - Marking checkpoint 3 as completed for source Source: Kafka Source.
+2025-03-19 11:51:22 - Triggering checkpoint 4 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352682163 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:51:22 - Completed checkpoint 4 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=6 ms, finalizationTime=1 ms).
+2025-03-19 11:51:22 - Marking checkpoint 4 as completed for source Source: Kafka Source.
+2025-03-19 11:51:27 - Triggering checkpoint 5 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352687165 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:51:27 - Completed checkpoint 5 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:51:27 - Marking checkpoint 5 as completed for source Source: Kafka Source.
+2025-03-19 11:51:32 - Triggering checkpoint 6 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352692164 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:51:32 - Completed checkpoint 6 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=8 ms, finalizationTime=0 ms).
+2025-03-19 11:51:32 - Marking checkpoint 6 as completed for source Source: Kafka Source.
+2025-03-19 11:51:37 - Triggering checkpoint 7 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352697163 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:51:37 - Completed checkpoint 7 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:51:37 - Marking checkpoint 7 as completed for source Source: Kafka Source.
+2025-03-19 11:51:42 - Triggering checkpoint 8 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352702165 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:51:42 - Completed checkpoint 8 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=6 ms, finalizationTime=0 ms).
+2025-03-19 11:51:42 - Marking checkpoint 8 as completed for source Source: Kafka Source.
+2025-03-19 11:51:47 - Triggering checkpoint 9 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352707165 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:51:47 - Completed checkpoint 9 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:51:47 - Marking checkpoint 9 as completed for source Source: Kafka Source.
+2025-03-19 11:51:52 - Triggering checkpoint 10 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352712163 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:51:52 - Completed checkpoint 10 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=7 ms, finalizationTime=0 ms).
+2025-03-19 11:51:52 - Marking checkpoint 10 as completed for source Source: Kafka Source.
+2025-03-19 11:51:57 - Triggering checkpoint 11 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352717161 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:51:57 - Completed checkpoint 11 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=6 ms, finalizationTime=0 ms).
+2025-03-19 11:51:57 - Marking checkpoint 11 as completed for source Source: Kafka Source.
+2025-03-19 11:52:02 - Triggering checkpoint 12 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352722165 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:52:02 - Completed checkpoint 12 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:52:02 - Marking checkpoint 12 as completed for source Source: Kafka Source.
+2025-03-19 11:52:07 - Triggering checkpoint 13 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352727165 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:52:07 - Completed checkpoint 13 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:52:07 - Marking checkpoint 13 as completed for source Source: Kafka Source.
+2025-03-19 11:52:12 - Triggering checkpoint 14 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352732163 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:52:12 - Completed checkpoint 14 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:52:12 - Marking checkpoint 14 as completed for source Source: Kafka Source.
+2025-03-19 11:52:17 - Triggering checkpoint 15 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352737163 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:52:17 - Completed checkpoint 15 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=6 ms, finalizationTime=1 ms).
+2025-03-19 11:52:17 - Marking checkpoint 15 as completed for source Source: Kafka Source.
+2025-03-19 11:52:22 - Triggering checkpoint 16 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352742165 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:52:22 - Completed checkpoint 16 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=6 ms, finalizationTime=0 ms).
+2025-03-19 11:52:22 - Marking checkpoint 16 as completed for source Source: Kafka Source.
+2025-03-19 11:52:27 - Triggering checkpoint 17 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352747165 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:52:27 - Completed checkpoint 17 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=1 ms).
+2025-03-19 11:52:27 - Marking checkpoint 17 as completed for source Source: Kafka Source.
+2025-03-19 11:52:32 - Triggering checkpoint 18 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352752165 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:52:32 - Completed checkpoint 18 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:52:32 - Marking checkpoint 18 as completed for source Source: Kafka Source.
+2025-03-19 11:52:37 - Triggering checkpoint 19 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352757161 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:52:37 - Completed checkpoint 19 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:52:37 - Marking checkpoint 19 as completed for source Source: Kafka Source.
+2025-03-19 11:52:42 - Triggering checkpoint 20 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352762162 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:52:42 - Completed checkpoint 20 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:52:42 - Marking checkpoint 20 as completed for source Source: Kafka Source.
+2025-03-19 11:52:47 - Triggering checkpoint 21 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352767165 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:52:47 - Completed checkpoint 21 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:52:47 - Marking checkpoint 21 as completed for source Source: Kafka Source.
+2025-03-19 11:52:52 - Triggering checkpoint 22 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352772163 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:52:52 - Completed checkpoint 22 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:52:52 - Marking checkpoint 22 as completed for source Source: Kafka Source.
+2025-03-19 11:52:57 - Triggering checkpoint 23 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352777163 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:52:57 - Completed checkpoint 23 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=1 ms).
+2025-03-19 11:52:57 - Marking checkpoint 23 as completed for source Source: Kafka Source.
+2025-03-19 11:53:02 - Triggering checkpoint 24 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352782162 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:53:02 - Completed checkpoint 24 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=7 ms, finalizationTime=0 ms).
+2025-03-19 11:53:02 - Marking checkpoint 24 as completed for source Source: Kafka Source.
+2025-03-19 11:53:07 - Triggering checkpoint 25 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352787164 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:53:07 - Completed checkpoint 25 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 11:53:07 - Marking checkpoint 25 as completed for source Source: Kafka Source.
+2025-03-19 11:53:12 - Triggering checkpoint 26 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352792165 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:53:12 - Completed checkpoint 26 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:53:12 - Marking checkpoint 26 as completed for source Source: Kafka Source.
+2025-03-19 11:53:17 - Triggering checkpoint 27 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352797164 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:53:17 - Completed checkpoint 27 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=1 ms).
+2025-03-19 11:53:17 - Marking checkpoint 27 as completed for source Source: Kafka Source.
+2025-03-19 11:53:22 - Triggering checkpoint 28 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352802164 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:53:22 - Completed checkpoint 28 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=1 ms).
+2025-03-19 11:53:22 - Marking checkpoint 28 as completed for source Source: Kafka Source.
+2025-03-19 11:53:27 - Triggering checkpoint 29 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352807165 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:53:27 - Completed checkpoint 29 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:53:27 - Marking checkpoint 29 as completed for source Source: Kafka Source.
+2025-03-19 11:53:32 - Triggering checkpoint 30 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352812162 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:53:32 - Completed checkpoint 30 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:53:32 - Marking checkpoint 30 as completed for source Source: Kafka Source.
+2025-03-19 11:53:37 - Triggering checkpoint 31 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352817162 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:53:37 - Completed checkpoint 31 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:53:37 - Marking checkpoint 31 as completed for source Source: Kafka Source.
+2025-03-19 11:53:42 - Triggering checkpoint 32 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352822164 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:53:42 - Completed checkpoint 32 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:53:42 - Marking checkpoint 32 as completed for source Source: Kafka Source.
+2025-03-19 11:53:47 - Triggering checkpoint 33 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352827162 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:53:47 - Completed checkpoint 33 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:53:47 - Marking checkpoint 33 as completed for source Source: Kafka Source.
+2025-03-19 11:53:52 - Triggering checkpoint 34 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352832161 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:53:52 - Completed checkpoint 34 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=1 ms).
+2025-03-19 11:53:52 - Marking checkpoint 34 as completed for source Source: Kafka Source.
+2025-03-19 11:53:57 - Triggering checkpoint 35 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352837161 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:53:57 - Completed checkpoint 35 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:53:57 - Marking checkpoint 35 as completed for source Source: Kafka Source.
+2025-03-19 11:54:02 - Triggering checkpoint 36 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352842161 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:54:02 - Completed checkpoint 36 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:54:02 - Marking checkpoint 36 as completed for source Source: Kafka Source.
+2025-03-19 11:54:07 - Triggering checkpoint 37 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352847161 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:54:07 - Completed checkpoint 37 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:54:07 - Marking checkpoint 37 as completed for source Source: Kafka Source.
+2025-03-19 11:54:12 - Triggering checkpoint 38 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352852162 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:54:12 - Completed checkpoint 38 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:54:12 - Marking checkpoint 38 as completed for source Source: Kafka Source.
+2025-03-19 11:54:17 - Triggering checkpoint 39 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352857163 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:54:17 - Completed checkpoint 39 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 11:54:17 - Marking checkpoint 39 as completed for source Source: Kafka Source.
+2025-03-19 11:54:22 - Triggering checkpoint 40 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352862161 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:54:22 - Completed checkpoint 40 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:54:22 - Marking checkpoint 40 as completed for source Source: Kafka Source.
+2025-03-19 11:54:27 - Triggering checkpoint 41 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352867160 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:54:27 - Completed checkpoint 41 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:54:27 - Marking checkpoint 41 as completed for source Source: Kafka Source.
+2025-03-19 11:54:32 - Triggering checkpoint 42 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352872160 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:54:32 - Completed checkpoint 42 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=1 ms).
+2025-03-19 11:54:32 - Marking checkpoint 42 as completed for source Source: Kafka Source.
+2025-03-19 11:54:37 - Triggering checkpoint 43 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352877163 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:54:37 - Completed checkpoint 43 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:54:37 - Marking checkpoint 43 as completed for source Source: Kafka Source.
+2025-03-19 11:54:42 - Triggering checkpoint 44 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352882162 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:54:42 - Completed checkpoint 44 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=1 ms).
+2025-03-19 11:54:42 - Marking checkpoint 44 as completed for source Source: Kafka Source.
+2025-03-19 11:54:47 - Triggering checkpoint 45 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352887164 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:54:47 - Completed checkpoint 45 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 11:54:47 - Marking checkpoint 45 as completed for source Source: Kafka Source.
+2025-03-19 11:54:52 - Triggering checkpoint 46 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352892162 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:54:52 - Completed checkpoint 46 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 11:54:52 - Marking checkpoint 46 as completed for source Source: Kafka Source.
+2025-03-19 11:54:57 - Triggering checkpoint 47 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352897163 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:54:57 - Completed checkpoint 47 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:54:57 - Marking checkpoint 47 as completed for source Source: Kafka Source.
+2025-03-19 11:55:02 - Triggering checkpoint 48 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352902164 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:55:02 - Completed checkpoint 48 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:55:02 - Marking checkpoint 48 as completed for source Source: Kafka Source.
+2025-03-19 11:55:07 - Triggering checkpoint 49 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352907161 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:55:07 - Completed checkpoint 49 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:55:07 - Marking checkpoint 49 as completed for source Source: Kafka Source.
+2025-03-19 11:55:12 - Triggering checkpoint 50 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352912164 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:55:12 - Completed checkpoint 50 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:55:12 - Marking checkpoint 50 as completed for source Source: Kafka Source.
+2025-03-19 11:55:17 - Triggering checkpoint 51 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352917164 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:55:17 - Completed checkpoint 51 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:55:17 - Marking checkpoint 51 as completed for source Source: Kafka Source.
+2025-03-19 11:55:22 - Triggering checkpoint 52 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352922164 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:55:22 - Completed checkpoint 52 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 11:55:22 - Marking checkpoint 52 as completed for source Source: Kafka Source.
+2025-03-19 11:55:27 - Triggering checkpoint 53 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352927164 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:55:27 - Completed checkpoint 53 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 11:55:27 - Marking checkpoint 53 as completed for source Source: Kafka Source.
+2025-03-19 11:55:32 - Triggering checkpoint 54 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352932163 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:55:32 - Completed checkpoint 54 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=16 ms, finalizationTime=0 ms).
+2025-03-19 11:55:32 - Marking checkpoint 54 as completed for source Source: Kafka Source.
+2025-03-19 11:55:37 - Triggering checkpoint 55 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352937164 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:55:37 - Completed checkpoint 55 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=1 ms).
+2025-03-19 11:55:37 - Marking checkpoint 55 as completed for source Source: Kafka Source.
+2025-03-19 11:55:42 - Triggering checkpoint 56 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352942163 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:55:42 - Completed checkpoint 56 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=1 ms).
+2025-03-19 11:55:42 - Marking checkpoint 56 as completed for source Source: Kafka Source.
+2025-03-19 11:55:47 - Triggering checkpoint 57 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352947164 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:55:47 - Completed checkpoint 57 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:55:47 - Marking checkpoint 57 as completed for source Source: Kafka Source.
+2025-03-19 11:55:52 - Triggering checkpoint 58 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352952161 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:55:52 - Completed checkpoint 58 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:55:52 - Marking checkpoint 58 as completed for source Source: Kafka Source.
+2025-03-19 11:55:57 - Triggering checkpoint 59 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352957161 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:55:57 - Completed checkpoint 59 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:55:57 - Marking checkpoint 59 as completed for source Source: Kafka Source.
+2025-03-19 11:56:02 - Triggering checkpoint 60 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352962163 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:56:02 - Completed checkpoint 60 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=2 ms, finalizationTime=0 ms).
+2025-03-19 11:56:02 - Marking checkpoint 60 as completed for source Source: Kafka Source.
+2025-03-19 11:56:07 - Triggering checkpoint 61 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352967160 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:56:07 - Completed checkpoint 61 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=1 ms).
+2025-03-19 11:56:07 - Marking checkpoint 61 as completed for source Source: Kafka Source.
+2025-03-19 11:56:12 - Triggering checkpoint 62 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352972158 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:56:12 - Completed checkpoint 62 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:56:12 - Marking checkpoint 62 as completed for source Source: Kafka Source.
+2025-03-19 11:56:17 - Triggering checkpoint 63 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352977162 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:56:17 - Completed checkpoint 63 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:56:17 - Marking checkpoint 63 as completed for source Source: Kafka Source.
+2025-03-19 11:56:22 - Triggering checkpoint 64 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352982163 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:56:22 - Completed checkpoint 64 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:56:22 - Marking checkpoint 64 as completed for source Source: Kafka Source.
+2025-03-19 11:56:27 - Triggering checkpoint 65 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352987160 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:56:27 - Completed checkpoint 65 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:56:27 - Marking checkpoint 65 as completed for source Source: Kafka Source.
+2025-03-19 11:56:32 - Triggering checkpoint 66 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352992161 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:56:32 - Completed checkpoint 66 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:56:32 - Marking checkpoint 66 as completed for source Source: Kafka Source.
+2025-03-19 11:56:37 - Triggering checkpoint 67 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742352997163 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:56:37 - Completed checkpoint 67 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:56:37 - Marking checkpoint 67 as completed for source Source: Kafka Source.
+2025-03-19 11:56:42 - Triggering checkpoint 68 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353002161 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:56:42 - Completed checkpoint 68 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=1 ms).
+2025-03-19 11:56:42 - Marking checkpoint 68 as completed for source Source: Kafka Source.
+2025-03-19 11:56:47 - Triggering checkpoint 69 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353007163 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:56:47 - Completed checkpoint 69 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 11:56:47 - Marking checkpoint 69 as completed for source Source: Kafka Source.
+2025-03-19 11:56:52 - Triggering checkpoint 70 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353012163 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:56:52 - Completed checkpoint 70 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=1 ms).
+2025-03-19 11:56:52 - Marking checkpoint 70 as completed for source Source: Kafka Source.
+2025-03-19 11:56:57 - Triggering checkpoint 71 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353017161 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:56:57 - Completed checkpoint 71 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 11:56:57 - Marking checkpoint 71 as completed for source Source: Kafka Source.
+2025-03-19 11:57:02 - Triggering checkpoint 72 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353022158 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:57:02 - Completed checkpoint 72 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:57:02 - Marking checkpoint 72 as completed for source Source: Kafka Source.
+2025-03-19 11:57:07 - Triggering checkpoint 73 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353027162 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:57:07 - Completed checkpoint 73 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 11:57:07 - Marking checkpoint 73 as completed for source Source: Kafka Source.
+2025-03-19 11:57:12 - Triggering checkpoint 74 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353032161 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:57:12 - Completed checkpoint 74 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:57:12 - Marking checkpoint 74 as completed for source Source: Kafka Source.
+2025-03-19 11:57:17 - Triggering checkpoint 75 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353037160 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:57:17 - Completed checkpoint 75 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:57:17 - Marking checkpoint 75 as completed for source Source: Kafka Source.
+2025-03-19 11:57:22 - Triggering checkpoint 76 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353042160 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:57:22 - Completed checkpoint 76 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:57:22 - Marking checkpoint 76 as completed for source Source: Kafka Source.
+2025-03-19 11:57:27 - Triggering checkpoint 77 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353047162 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:57:27 - Completed checkpoint 77 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 11:57:27 - Marking checkpoint 77 as completed for source Source: Kafka Source.
+2025-03-19 11:57:32 - Triggering checkpoint 78 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353052161 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:57:32 - Completed checkpoint 78 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=2 ms, finalizationTime=0 ms).
+2025-03-19 11:57:32 - Marking checkpoint 78 as completed for source Source: Kafka Source.
+2025-03-19 11:57:37 - Triggering checkpoint 79 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353057162 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:57:37 - Completed checkpoint 79 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:57:37 - Marking checkpoint 79 as completed for source Source: Kafka Source.
+2025-03-19 11:57:42 - Triggering checkpoint 80 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353062158 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:57:42 - Completed checkpoint 80 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 11:57:42 - Marking checkpoint 80 as completed for source Source: Kafka Source.
+2025-03-19 11:57:47 - Triggering checkpoint 81 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353067160 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:57:47 - Completed checkpoint 81 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:57:47 - Marking checkpoint 81 as completed for source Source: Kafka Source.
+2025-03-19 11:57:52 - Triggering checkpoint 82 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353072160 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:57:52 - Completed checkpoint 82 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:57:52 - Marking checkpoint 82 as completed for source Source: Kafka Source.
+2025-03-19 11:57:57 - Triggering checkpoint 83 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353077162 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:57:57 - Completed checkpoint 83 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=9 ms, finalizationTime=0 ms).
+2025-03-19 11:57:57 - Marking checkpoint 83 as completed for source Source: Kafka Source.
+2025-03-19 11:58:02 - Triggering checkpoint 84 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353082160 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:58:02 - Completed checkpoint 84 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 11:58:02 - Marking checkpoint 84 as completed for source Source: Kafka Source.
+2025-03-19 11:58:07 - Triggering checkpoint 85 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353087158 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:58:07 - Completed checkpoint 85 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:58:07 - Marking checkpoint 85 as completed for source Source: Kafka Source.
+2025-03-19 11:58:12 - Triggering checkpoint 86 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353092158 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:58:12 - Completed checkpoint 86 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=6 ms, finalizationTime=0 ms).
+2025-03-19 11:58:12 - Marking checkpoint 86 as completed for source Source: Kafka Source.
+2025-03-19 11:58:17 - Triggering checkpoint 87 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353097158 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:58:17 - Completed checkpoint 87 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=1 ms).
+2025-03-19 11:58:17 - Marking checkpoint 87 as completed for source Source: Kafka Source.
+2025-03-19 11:58:22 - Triggering checkpoint 88 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353102160 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:58:22 - Completed checkpoint 88 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=7 ms, finalizationTime=1 ms).
+2025-03-19 11:58:22 - Marking checkpoint 88 as completed for source Source: Kafka Source.
+2025-03-19 11:58:27 - Triggering checkpoint 89 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353107161 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:58:27 - Completed checkpoint 89 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:58:27 - Marking checkpoint 89 as completed for source Source: Kafka Source.
+2025-03-19 11:58:32 - Triggering checkpoint 90 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353112159 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:58:32 - Completed checkpoint 90 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 11:58:32 - Marking checkpoint 90 as completed for source Source: Kafka Source.
+2025-03-19 11:58:37 - Triggering checkpoint 91 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353117159 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:58:37 - Completed checkpoint 91 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=2 ms, finalizationTime=0 ms).
+2025-03-19 11:58:37 - Marking checkpoint 91 as completed for source Source: Kafka Source.
+2025-03-19 11:58:42 - Triggering checkpoint 92 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353122162 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:58:42 - Completed checkpoint 92 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:58:42 - Marking checkpoint 92 as completed for source Source: Kafka Source.
+2025-03-19 11:58:47 - Triggering checkpoint 93 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353127159 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:58:47 - Completed checkpoint 93 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 11:58:47 - Marking checkpoint 93 as completed for source Source: Kafka Source.
+2025-03-19 11:58:52 - Triggering checkpoint 94 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353132159 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:58:52 - Completed checkpoint 94 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:58:52 - Marking checkpoint 94 as completed for source Source: Kafka Source.
+2025-03-19 11:58:57 - Triggering checkpoint 95 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353137158 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:58:57 - Completed checkpoint 95 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=1 ms).
+2025-03-19 11:58:57 - Marking checkpoint 95 as completed for source Source: Kafka Source.
+2025-03-19 11:59:02 - Triggering checkpoint 96 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353142162 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:59:02 - Completed checkpoint 96 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=1 ms).
+2025-03-19 11:59:02 - Marking checkpoint 96 as completed for source Source: Kafka Source.
+2025-03-19 11:59:07 - Triggering checkpoint 97 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353147159 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:59:07 - Completed checkpoint 97 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=1 ms).
+2025-03-19 11:59:07 - Marking checkpoint 97 as completed for source Source: Kafka Source.
+2025-03-19 11:59:12 - Triggering checkpoint 98 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353152159 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:59:12 - Completed checkpoint 98 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:59:12 - Marking checkpoint 98 as completed for source Source: Kafka Source.
+2025-03-19 11:59:17 - Triggering checkpoint 99 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353157159 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:59:17 - Completed checkpoint 99 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=1 ms).
+2025-03-19 11:59:17 - Marking checkpoint 99 as completed for source Source: Kafka Source.
+2025-03-19 11:59:22 - Triggering checkpoint 100 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353162159 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:59:22 - Completed checkpoint 100 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 11:59:22 - Marking checkpoint 100 as completed for source Source: Kafka Source.
+2025-03-19 11:59:27 - Triggering checkpoint 101 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353167162 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:59:27 - Completed checkpoint 101 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 11:59:27 - Marking checkpoint 101 as completed for source Source: Kafka Source.
+2025-03-19 11:59:32 - Triggering checkpoint 102 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353172159 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:59:32 - Completed checkpoint 102 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:59:32 - Marking checkpoint 102 as completed for source Source: Kafka Source.
+2025-03-19 11:59:37 - Triggering checkpoint 103 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353177160 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:59:37 - Completed checkpoint 103 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:59:37 - Marking checkpoint 103 as completed for source Source: Kafka Source.
+2025-03-19 11:59:42 - Triggering checkpoint 104 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353182161 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:59:42 - Completed checkpoint 104 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:59:42 - Marking checkpoint 104 as completed for source Source: Kafka Source.
+2025-03-19 11:59:47 - Triggering checkpoint 105 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353187161 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:59:47 - Completed checkpoint 105 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:59:47 - Marking checkpoint 105 as completed for source Source: Kafka Source.
+2025-03-19 11:59:52 - Triggering checkpoint 106 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353192159 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:59:52 - Completed checkpoint 106 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 11:59:52 - Marking checkpoint 106 as completed for source Source: Kafka Source.
+2025-03-19 11:59:57 - Triggering checkpoint 107 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353197158 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 11:59:57 - Completed checkpoint 107 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 11:59:57 - Marking checkpoint 107 as completed for source Source: Kafka Source.
+2025-03-19 12:00:02 - Triggering checkpoint 108 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353202159 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 12:00:02 - Completed checkpoint 108 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=1 ms).
+2025-03-19 12:00:02 - Marking checkpoint 108 as completed for source Source: Kafka Source.
+2025-03-19 12:00:07 - Triggering checkpoint 109 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353207160 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 12:00:07 - Completed checkpoint 109 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 12:00:07 - Marking checkpoint 109 as completed for source Source: Kafka Source.
+2025-03-19 12:00:12 - Triggering checkpoint 110 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353212160 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 12:00:12 - Completed checkpoint 110 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 12:00:12 - Marking checkpoint 110 as completed for source Source: Kafka Source.
+2025-03-19 12:00:17 - Triggering checkpoint 111 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353217228 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 12:00:17 - Completed checkpoint 111 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 12:00:17 - Marking checkpoint 111 as completed for source Source: Kafka Source.
+2025-03-19 12:00:22 - Triggering checkpoint 112 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742353222231 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 12:00:22 - Completed checkpoint 112 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=6 ms, finalizationTime=0 ms).
+2025-03-19 12:00:22 - Marking checkpoint 112 as completed for source Source: Kafka Source.
+2025-03-19 12:32:26 - Triggering checkpoint 113 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742355146592 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 12:32:26 - Completed checkpoint 113 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 12:32:26 - Marking checkpoint 113 as completed for source Source: Kafka Source.
+2025-03-19 12:32:31 - Triggering checkpoint 114 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742355151598 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 12:32:31 - Completed checkpoint 114 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=6 ms, finalizationTime=0 ms).
+2025-03-19 12:32:31 - Marking checkpoint 114 as completed for source Source: Kafka Source.
+2025-03-19 12:32:36 - Triggering checkpoint 115 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742355156605 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 12:32:36 - Completed checkpoint 115 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=1 ms).
+2025-03-19 12:32:36 - Marking checkpoint 115 as completed for source Source: Kafka Source.
+2025-03-19 12:32:41 - Triggering checkpoint 116 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742355161606 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 12:32:41 - Completed checkpoint 116 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 12:32:41 - Marking checkpoint 116 as completed for source Source: Kafka Source.
+2025-03-19 12:32:46 - Triggering checkpoint 117 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742355166606 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 12:32:46 - Completed checkpoint 117 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 12:32:46 - Marking checkpoint 117 as completed for source Source: Kafka Source.
+2025-03-19 12:32:51 - Triggering checkpoint 118 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742355171610 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 12:32:51 - Completed checkpoint 118 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 12:32:51 - Marking checkpoint 118 as completed for source Source: Kafka Source.
+2025-03-19 12:32:56 - Triggering checkpoint 119 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742355176609 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 12:32:56 - Completed checkpoint 119 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 12:32:56 - Marking checkpoint 119 as completed for source Source: Kafka Source.
+2025-03-19 12:33:01 - Triggering checkpoint 120 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742355181606 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 12:33:01 - Completed checkpoint 120 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=1 ms).
+2025-03-19 12:33:01 - Marking checkpoint 120 as completed for source Source: Kafka Source.
+2025-03-19 12:33:06 - Triggering checkpoint 121 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742355186610 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 12:33:06 - Completed checkpoint 121 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 12:33:06 - Marking checkpoint 121 as completed for source Source: Kafka Source.
+2025-03-19 13:12:53 - Triggering checkpoint 122 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357573387 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:12:53 - Completed checkpoint 122 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 13:12:53 - Marking checkpoint 122 as completed for source Source: Kafka Source.
+2025-03-19 13:12:58 - Triggering checkpoint 123 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357578380 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:12:58 - Completed checkpoint 123 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 13:12:58 - Marking checkpoint 123 as completed for source Source: Kafka Source.
+2025-03-19 13:13:03 - Triggering checkpoint 124 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357583370 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:13:03 - Completed checkpoint 124 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 13:13:03 - Marking checkpoint 124 as completed for source Source: Kafka Source.
+2025-03-19 13:13:08 - Triggering checkpoint 125 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357588361 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:13:08 - Completed checkpoint 125 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 13:13:08 - Marking checkpoint 125 as completed for source Source: Kafka Source.
+2025-03-19 13:13:13 - Triggering checkpoint 126 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357593358 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:13:13 - Completed checkpoint 126 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 13:13:13 - Marking checkpoint 126 as completed for source Source: Kafka Source.
+2025-03-19 13:13:18 - Triggering checkpoint 127 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357598356 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:13:18 - Completed checkpoint 127 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=1 ms).
+2025-03-19 13:13:18 - Marking checkpoint 127 as completed for source Source: Kafka Source.
+2025-03-19 13:13:23 - Triggering checkpoint 128 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357603352 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:13:23 - Completed checkpoint 128 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=9 ms, finalizationTime=0 ms).
+2025-03-19 13:13:23 - Marking checkpoint 128 as completed for source Source: Kafka Source.
+2025-03-19 13:13:28 - Triggering checkpoint 129 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357608351 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:13:28 - Completed checkpoint 129 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=7 ms, finalizationTime=0 ms).
+2025-03-19 13:13:28 - Marking checkpoint 129 as completed for source Source: Kafka Source.
+2025-03-19 13:13:33 - Triggering checkpoint 130 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357613347 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:13:33 - Completed checkpoint 130 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=2 ms, finalizationTime=0 ms).
+2025-03-19 13:13:33 - Marking checkpoint 130 as completed for source Source: Kafka Source.
+2025-03-19 13:13:38 - Triggering checkpoint 131 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357618346 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:13:38 - Completed checkpoint 131 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=8 ms, finalizationTime=0 ms).
+2025-03-19 13:13:38 - Marking checkpoint 131 as completed for source Source: Kafka Source.
+2025-03-19 13:13:43 - Triggering checkpoint 132 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357623346 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:13:43 - Completed checkpoint 132 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=1 ms).
+2025-03-19 13:13:43 - Marking checkpoint 132 as completed for source Source: Kafka Source.
+2025-03-19 13:13:48 - Triggering checkpoint 133 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357628343 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:13:48 - Completed checkpoint 133 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=3 ms, finalizationTime=0 ms).
+2025-03-19 13:13:48 - Marking checkpoint 133 as completed for source Source: Kafka Source.
+2025-03-19 13:13:53 - Triggering checkpoint 134 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357633342 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:13:53 - Completed checkpoint 134 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 13:13:53 - Marking checkpoint 134 as completed for source Source: Kafka Source.
+2025-03-19 13:13:54 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:13:54 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2147483647 disconnected.
+2025-03-19 13:13:54 - [Consumer clientId=flink-group-5, groupId=flink-group] Cancelled in-flight OFFSET_COMMIT request with correlation id 1468 due to node 2147483647 being disconnected (elapsed time since creation: 3879ms, elapsed time since send: 3879ms, throttle time: 0ms, request timeout: 30000ms)
+2025-03-19 13:13:54 - [Consumer clientId=flink-group-5, groupId=flink-group] Cancelled in-flight OFFSET_COMMIT request with correlation id 1469 due to node 2147483647 being disconnected (elapsed time since creation: 3879ms, elapsed time since send: 3879ms, throttle time: 0ms, request timeout: 30000ms)
+2025-03-19 13:13:54 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:13:54 - [Consumer clientId=flink-group-5, groupId=flink-group] Cancelled in-flight FETCH request with correlation id 1467 due to node 2 being disconnected (elapsed time since creation: 7033ms, elapsed time since send: 7033ms, throttle time: 0ms, request timeout: 30000ms)
+2025-03-19 13:13:54 - [Consumer clientId=flink-group-5, groupId=flink-group] Node -1 disconnected.
+2025-03-19 13:13:54 - [Consumer clientId=flink-group-5, groupId=flink-group] Group coordinator 127.0.0.1:10000 (id: 2147483647 rack: null) is unavailable or invalid due to cause: null. isDisconnected: true. Rediscovery will be attempted.
+2025-03-19 13:13:54 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:13:54 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:13:54 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:13:54 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:13:54 - [Consumer clientId=flink-group-5, groupId=flink-group] Error sending fetch request (sessionId=2128292050, epoch=1317) to node 2:
+org.apache.kafka.common.errors.DisconnectException: null
+2025-03-19 13:13:54 - Failed to commit consumer offsets for checkpoint 132
+org.apache.kafka.clients.consumer.RetriableCommitFailedException: Offset commit failed with a retriable exception. You should retry committing the latest consumed offsets.
+Caused by: org.apache.kafka.common.errors.DisconnectException: null
+2025-03-19 13:13:54 - Failed to commit consumer offsets for checkpoint 133
+org.apache.kafka.clients.consumer.RetriableCommitFailedException: Offset commit failed with a retriable exception. You should retry committing the latest consumed offsets.
+Caused by: org.apache.kafka.common.errors.DisconnectException: null
+2025-03-19 13:13:55 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:13:55 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:13:55 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:13:55 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:13:55 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:13:55 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:13:55 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:13:55 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:13:55 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:13:56 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:13:56 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:13:56 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:13:56 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:13:56 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:13:56 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:13:56 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:13:56 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:13:56 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:13:56 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:13:57 - Shutting down TaskExecutorLocalStateStoresManager.
+2025-03-19 13:13:57 - Shutting down BLOB cache
+2025-03-19 13:13:57 - Shutting down TaskExecutorStateChangelogStoragesManager.
+2025-03-19 13:13:57 - Shutting down BLOB cache
+2025-03-19 13:13:57 - Stopped BLOB server at 0.0.0.0:58291
+2025-03-19 13:13:57 - FileChannelManager removed spill file directory /var/folders/bq/lfcj8xns4zv0kmcjn2sdc2jr0000gn/T/flink-netty-shuffle-3b6133c5-5b82-4f53-ab94-4b2c9d9d2f2e
+2025-03-19 13:13:57 - removed file cache directory /var/folders/bq/lfcj8xns4zv0kmcjn2sdc2jr0000gn/T/flink-dist-cache-a96eb0c4-4142-4213-a518-bda8786ffad7
+2025-03-19 13:13:57 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-19 13:13:57 - FileChannelManager removed spill file directory /var/folders/bq/lfcj8xns4zv0kmcjn2sdc2jr0000gn/T/flink-io-889de5cf-3c99-402e-95ae-6ca02f05002d
+2025-03-19 13:13:57 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:13:57 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:13:57 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:13:57 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:13:57 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:13:57 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:13:57 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:13:57 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:13:57 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:13:57 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:13:58 - Triggering checkpoint 135 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357638343 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:13:58 - Completed checkpoint 135 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 13:13:58 - Marking checkpoint 135 as completed for source Source: Kafka Source.
+2025-03-19 13:13:58 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:13:58 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:13:58 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:13:58 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:13:58 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:13:58 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:13:58 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:13:58 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:13:59 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:13:59 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:13:59 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:13:59 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:13:59 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:13:59 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:13:59 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:13:59 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:00 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:14:00 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:00 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:00 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:00 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:00 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:00 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:00 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:01 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:14:01 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:01 - [Consumer clientId=flink-group-5, groupId=flink-group] Error sending fetch request (sessionId=2128292050, epoch=INITIAL) to node 2:
+org.apache.kafka.common.errors.DisconnectException: null
+2025-03-19 13:14:01 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:14:01 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:01 - Failed to commit consumer offsets for checkpoint 134
+org.apache.kafka.clients.consumer.RetriableCommitFailedException: Offset commit failed with a retriable exception. You should retry committing the latest consumed offsets.
+Caused by: org.apache.kafka.common.errors.DisconnectException: null
+2025-03-19 13:14:01 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:14:01 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:01 - Failed to commit consumer offsets for checkpoint 135
+org.apache.kafka.clients.consumer.RetriableCommitFailedException: Offset commit failed with a retriable exception. You should retry committing the latest consumed offsets.
+Caused by: org.apache.kafka.common.errors.DisconnectException: null
+2025-03-19 13:14:01 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:01 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:01 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:01 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:01 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:01 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:01 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:14:01 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:02 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:02 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:02 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:02 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:02 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:02 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:02 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:14:02 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:02 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:14:02 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:02 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:14:02 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:03 - Triggering checkpoint 136 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357643341 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:14:03 - Completed checkpoint 136 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 13:14:03 - Marking checkpoint 136 as completed for source Source: Kafka Source.
+2025-03-19 13:14:03 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:03 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:03 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:03 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:03 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:14:03 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:03 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:03 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:04 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:04 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:04 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:14:04 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:04 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:04 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:04 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:14:04 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:04 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:04 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:05 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:05 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:05 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:14:05 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:05 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:05 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:05 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:05 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:05 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:14:05 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:05 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:14:05 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:06 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:06 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:06 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:06 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:06 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:06 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:06 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:14:06 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:07 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:07 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:07 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:14:07 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:07 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:07 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:07 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:07 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:07 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:14:07 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:08 - Triggering checkpoint 137 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357648344 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:14:08 - Completed checkpoint 137 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=5 ms, finalizationTime=0 ms).
+2025-03-19 13:14:08 - Marking checkpoint 137 as completed for source Source: Kafka Source.
+2025-03-19 13:14:08 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:08 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:08 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:14:08 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:08 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:14:08 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:08 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:14:08 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:08 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:08 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:08 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:08 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:09 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:14:09 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:09 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:09 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:09 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:14:09 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:09 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:09 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:09 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:09 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:10 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:10 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:10 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:14:10 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:10 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:10 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:10 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:10 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:11 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:14:11 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:11 - [Consumer clientId=flink-group-5, groupId=flink-group] Error sending fetch request (sessionId=2128292050, epoch=INITIAL) to node 2:
+org.apache.kafka.common.errors.DisconnectException: null
+2025-03-19 13:14:11 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:14:11 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:11 - Failed to commit consumer offsets for checkpoint 136
+org.apache.kafka.clients.consumer.RetriableCommitFailedException: Offset commit failed with a retriable exception. You should retry committing the latest consumed offsets.
+Caused by: org.apache.kafka.common.errors.DisconnectException: null
+2025-03-19 13:14:11 - Failed to commit consumer offsets for checkpoint 137
+org.apache.kafka.clients.consumer.RetriableCommitFailedException: Offset commit failed with a retriable exception. You should retry committing the latest consumed offsets.
+Caused by: org.apache.kafka.clients.consumer.internals.NoAvailableBrokersException: null
+2025-03-19 13:14:11 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:11 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:11 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:11 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:11 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:14:11 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:11 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:11 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:12 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:12 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:12 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:12 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:12 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:14:12 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:12 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:12 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:13 - Triggering checkpoint 138 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357653341 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:14:13 - Completed checkpoint 138 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 13:14:13 - Marking checkpoint 138 as completed for source Source: Kafka Source.
+2025-03-19 13:14:13 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:13 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:13 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:13 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:13 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:13 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:13 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:14:13 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:14 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:14 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:14 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:14 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:14 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:14 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:14 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:14:14 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:15 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:15 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:15 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:15 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:15 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:14:15 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:15 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:14:15 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:15 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:15 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:15 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:14:15 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:16 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:16 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:16 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:16 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:16 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:16 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:16 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:14:16 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:17 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:17 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:17 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:17 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:17 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:14:17 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:17 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:17 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:18 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:18 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:18 - Triggering checkpoint 139 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357658341 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:14:18 - Completed checkpoint 139 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 13:14:18 - Marking checkpoint 139 as completed for source Source: Kafka Source.
+2025-03-19 13:14:18 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:18 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:18 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:14:18 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:18 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:18 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:19 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:19 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:19 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:19 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:19 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:14:19 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:19 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:14:19 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:19 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:19 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:20 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:20 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:20 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:20 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:20 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:14:20 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:20 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:20 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:21 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:14:21 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:21 - [Consumer clientId=flink-group-5, groupId=flink-group] Error sending fetch request (sessionId=2128292050, epoch=INITIAL) to node 2:
+org.apache.kafka.common.errors.DisconnectException: null
+2025-03-19 13:14:21 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:14:21 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:21 - Failed to commit consumer offsets for checkpoint 138
+org.apache.kafka.clients.consumer.RetriableCommitFailedException: Offset commit failed with a retriable exception. You should retry committing the latest consumed offsets.
+Caused by: org.apache.kafka.clients.consumer.internals.NoAvailableBrokersException: null
+2025-03-19 13:14:21 - Failed to commit consumer offsets for checkpoint 139
+org.apache.kafka.clients.consumer.RetriableCommitFailedException: Offset commit failed with a retriable exception. You should retry committing the latest consumed offsets.
+Caused by: org.apache.kafka.clients.consumer.internals.NoAvailableBrokersException: null
+2025-03-19 13:14:21 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:21 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:21 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:21 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:21 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:14:21 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:21 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:21 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:22 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:22 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:22 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:22 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:22 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:14:22 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:22 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:22 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:23 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:23 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:23 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:23 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:23 - Triggering checkpoint 140 (type=CheckpointType{name='Checkpoint', sharingFilesStrategy=FORWARD_BACKWARD}) @ 1742357663341 for job 5e861ced8886da9d6814adb94cbb8476.
+2025-03-19 13:14:23 - Completed checkpoint 140 for job 5e861ced8886da9d6814adb94cbb8476 (1935 bytes, checkpointDuration=4 ms, finalizationTime=0 ms).
+2025-03-19 13:14:23 - Marking checkpoint 140 as completed for source Source: Kafka Source.
+2025-03-19 13:14:23 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:14:23 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:23 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:23 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:23 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:14:23 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:24 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:24 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:24 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:24 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:24 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:14:24 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:24 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:24 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:24 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 0 disconnected.
+2025-03-19 13:14:24 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:24 - [AdminClient clientId=flink-group-enumerator-admin-client] Metadata update failed
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting for a node assignment. Call: fetchMetadata
+2025-03-19 13:14:25 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:25 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:25 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:25 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:25 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 1 disconnected.
+2025-03-19 13:14:25 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:25 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:25 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:26 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:26 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:26 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:26 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:26 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 2 disconnected.
+2025-03-19 13:14:26 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:26 - [Consumer clientId=flink-group-5, groupId=flink-group] Node 2 disconnected.
+2025-03-19 13:14:26 - [Consumer clientId=flink-group-5, groupId=flink-group] Connection to node 2 (/127.0.0.1:10002) could not be established. Node may not be available.
+2025-03-19 13:14:27 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 1 disconnected.
+2025-03-19 13:14:27 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 1 (/127.0.0.1:10001) could not be established. Node may not be available.
+2025-03-19 13:14:27 - Shutdown phase 2147482623 ends with 1 bean still running after timeout of 30000ms: [webServerGracefulShutdown]
+2025-03-19 13:14:27 - [AdminClient clientId=flink-group-enumerator-admin-client] Node 0 disconnected.
+2025-03-19 13:14:27 - [AdminClient clientId=flink-group-enumerator-admin-client] Connection to node 0 (/127.0.0.1:10000) could not be established. Node may not be available.
+2025-03-19 13:14:27 - Graceful shutdown aborted with one or more requests still active
